@@ -34,4 +34,7 @@ namespace VersionInfo
     unsigned GetPatchNumber();
     unsigned GetRevisionNumber();
     CString GetGCCVersion();
+    unsigned int GetCCCPBuildYear();
+    unsigned int GetCCCPBuildMonth();
+    unsigned int GetCCCPBuildDay();
 };
